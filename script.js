@@ -1,4 +1,5 @@
 $(function () {
+  // time is in 24 hour 00 format so if u want to test diffrent times add .time(##) to the end of time = dayjs
   var time = dayjs();
   var timeSlot = $('*#timeBlock');
   var saveBtn = $('*.saveBtn');
